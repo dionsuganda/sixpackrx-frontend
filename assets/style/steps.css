@@ -1,0 +1,64 @@
+#steps {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#steps .flex {
+    display: flex;
+    gap: 20px;
+}
+
+#steps .title {
+    margin-right: 20px;
+}
+
+#steps .title h1 {
+    font-family: Poppins;
+    font-size: 76px;
+    line-height: 74px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#steps .title h6 {
+    font-size: 22px;
+    font-family: Poppins;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+#steps .card {
+    border: 3px solid var(--border);
+    max-height: 385px;
+    min-width: 231px;
+    border-radius: 20px;
+    position: relative;
+}
+
+#steps .card .title {
+    text-align: center;
+    margin-right: 0;
+    font-weight: 700;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+#steps .steps-1 {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+#steps .steps-2 {
+    position: absolute;
+    bottom: 10px;
+    right: -95px;
+}
+
+#steps .steps-3 {
+    position: absolute;
+    bottom: 10px;
+    right: 12px;
+}

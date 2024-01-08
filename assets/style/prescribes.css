@@ -1,0 +1,59 @@
+#prescribes {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+#prescribes .card {
+    border: 1px solid var(--border);
+    padding: 30px;
+    border-radius: 32px;
+    max-width: 614px;
+    max-height: 533px !important;
+}
+
+#prescribes .card h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Poppins;
+    font-size: 36px;
+}
+
+#prescribes .card span {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Poppins;
+    font-size: 22px;
+    color: white;
+    opacity: 0.6;
+}
+
+#presribes .card p {
+    font-size: 20px;
+    font-family: Poppins;
+    line-height: 36px;
+}
+
+#prescribes .card .small {
+    font-size: 12px;
+    font-family: Poppins;
+    line-height: 18px;
+    color: #A7A7A7 !important;
+    padding-top: 20px;
+}
+
+#prescribes .title {
+    text-align: right;
+}
+
+#prescribes .title h1 {
+    text-align: right;
+    font-family: Poppins;
+    font-size: 86px;
+    line-height: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+}

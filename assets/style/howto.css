@@ -1,0 +1,28 @@
+#howto {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-top: 40px;
+}
+
+#howto .title {
+
+    padding-left: 70px;
+}
+
+#howto h1 {
+    font-size: 114px;
+    margin-bottom: 0;
+}
+
+#howto .flex {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+#howto .card {
+    width: 521px;
+    height: 937px;
+    border-radius: 32px;
+    background-color: #D9D9D9;
+}

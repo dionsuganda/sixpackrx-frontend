@@ -1,0 +1,51 @@
+#jumbotron {
+
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    /* position: relative; */
+    min-height: 1041px;
+}
+
+#jumbotron .img {
+    position: absolute;
+    right: -100px;
+}
+
+#jumbotron .title {
+    z-index: 100;
+    margin-top: 150px;
+    max-width: 430px;
+}
+
+#jumbotron .title h1 {
+    color: var(--primary);
+    font-size: 54px;
+    line-height: 55.6px;
+    letter-spacing: -2.16px;
+    margin-bottom: 0px;
+}
+
+#jumbotron .title h6 {
+    font-size: 30px;
+    font-family: Poppins;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#jumbotron .title p {
+    margin-top: 14px;
+    margin-bottom: 18px;
+    font-weight: 400;
+}
+
+#jumbotron .title button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#jumbotron .support {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
