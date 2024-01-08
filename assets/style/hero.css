@@ -35,6 +35,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 0px;
+    position: absolute;
 }
 
 #hero .flex img {
@@ -53,6 +54,7 @@
 
 #hero .bottom h6 {
     font-size: 48px;
+    white-space: nowrap;
 }
 
 #hero .bottom button {
@@ -85,4 +87,5 @@
 #hero .bottom li {
     font-size: 20px;
     text-decoration: none;
+    white-space: nowrap;
 }
