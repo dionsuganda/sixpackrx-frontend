@@ -1,0 +1,91 @@
+#hero {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-image: url("../img/hero.png");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#hero .flex {
+    display: flex;
+    max-height: 350px;
+    /* justify-content: space-between; */
+}
+
+#hero .flex h1 {
+    font-size: 108px;
+    line-height: 108px;
+    max-width: 691px;
+    font-family: Poppins;
+    font-weight: 900;
+    letter-spacing: -2.5%;
+}
+
+#hero h6 {
+    margin-bottom: 10px;
+    font-size: 15px;
+    letter-spacing: 10%;
+}
+
+#hero .flex .brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0px;
+    position: absolute;
+}
+
+#hero .flex img {
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+#hero .flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+#hero .bottom {
+    gap: 50px;
+}
+
+#hero .bottom h6 {
+    font-size: 48px;
+    white-space: nowrap;
+}
+
+#hero .bottom button {
+    padding: 10px;
+    background-color: var(--primary);
+    border: 1px solid white;
+    color: white;
+    font-family: Poppins;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#hero .bottom span {
+    font-weight: 500;
+    margin-top: 7px;
+}
+
+#hero .bottom .card {
+    margin-top: auto;
+    min-height: 120px;
+    border: 1px solid white;
+}
+
+#hero .bottom ul {
+    margin-top: 20px;
+    padding-right: 30px;
+    list-style-type: none;
+}
+
+#hero .bottom li {
+    font-size: 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}

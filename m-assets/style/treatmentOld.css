@@ -1,0 +1,74 @@
+#treatment {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-top: 40px;
+}
+
+#treatment h1 {
+    font-size: 106px;
+    font-family: Satoshi-Black;
+    margin-bottom: 0;
+}
+
+#treatement span {
+    font-size: 22px;
+}
+
+#treatment .list {
+    margin-top: 30px;
+    border-top: 1px solid var(--border);
+}
+
+#treatment .list .child {
+    display: flex;
+    padding: 20px 30px;
+    border-bottom: 1px solid var(--border);
+    gap: 20px;
+}
+
+#treatment .list .child .number {
+    min-width: 80px;
+    background-color: #FFFFFF;
+    color: #404040;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    border-radius: 500px;
+    border: 10px solid transparent;
+}
+
+#treatment .list .child .number-active {
+    border-color: var(--primary);
+}
+
+#treatment .list .child .number h6 {
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 700;
+    padding-top: 10px;
+    margin-top: 0;
+}
+
+#treatment .list .child .button {
+    min-width: 300px;
+    max-width: 300px;
+}
+
+#treatment .list .child .button button {
+    width: 100%;
+    font-size: 20px;
+}
+
+#treatment .list .child .text h6 {
+    color: var(--primary);
+    font-size: 22px;
+    font-family: Poppins;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#treatment .list .child .text p {
+    font-size: 18px;
+    font-family: Poppins;
+    margin-top: 0;
+}

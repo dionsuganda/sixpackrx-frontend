@@ -1,0 +1,77 @@
+#prescribes {
+    margin-top: 34px;
+    margin-bottom: 80px;
+    gap: 30px;
+}
+
+#prescribes .card {
+    border: 1px solid var(--border);
+    padding: 42px;
+    border-radius: 60px;
+    max-width: 614px;
+}
+
+#prescribes .card h6 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family: Poppins;
+    font-size: 36px;
+    line-height: 33px;
+    font-weight: 700;
+}
+
+#prescribes .card span {
+    margin-bottom: 0;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30.8px;
+    color: white;
+    opacity: 0.6;
+}
+
+#prescribes .card p {
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 21px;
+}
+
+#prescribes .card .small {
+    font-size: 9px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 18px;
+    color: #A7A7A7 !important;
+    padding-top: 20px;
+}
+
+#prescribes .title {
+    text-align: right;
+}
+
+#prescribes .title h1 {
+    text-align: right;
+    font-family: Poppins;
+    font-weight: 700px;
+    font-size: 54px;
+    line-height: 52px;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+#prescribes .title p {
+    text-align: right;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    margin-top: 0;
+    margin-bottom: 97px;
+}
+
+#prescribes .flex {
+    display: flex;
+    justify-content: center;
+}

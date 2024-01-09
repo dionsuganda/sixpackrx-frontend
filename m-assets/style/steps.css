@@ -1,0 +1,107 @@
+#steps {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+#steps .flex {
+    display: flex;
+    /* gap: 20px; */
+    /* justify-content: space-between; */
+}
+
+#steps .flex-end {
+    display: flex;
+    /* gap: 20px; */
+    justify-content: end;
+}
+
+#steps .justify-content-center {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#steps .align-item-center {
+    display: flex;
+    align-items: center;
+    margin-left: -25px;
+    position:sticky;
+}
+#steps .align-item-center-right {
+    display: flex;
+    align-items: center;
+    margin-right: -35px;
+    z-index:1;
+}
+
+#steps .title {
+    margin-right: 20px;
+}
+
+#steps .title h1 {
+    font-family: Poppins;
+    font-size: 50px;
+    line-height: 52px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#steps .title h6 {
+    font-size: 22px;
+    font-family: Poppins;
+    margin-top: 10px;
+    margin-bottom: 76px;
+}
+
+
+#steps .card {
+    border: 3px solid var(--border);
+    /* max-height: 385px; */
+    min-width: 231px;
+    border-radius: 20px;
+    position: relative;
+}
+
+#steps .card-right {
+    border: 3px solid var(--border);
+    /* max-height: 385px; */
+    min-width: 231px;
+    border-radius: 20px;
+    position: relative;
+}
+
+#steps .card .title {
+    text-align: center;
+    margin-right: 0;
+    font-weight: 700;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+#steps .btn {
+    /* width: 10px; */
+    height: 56px;
+    font-size: 16px;
+}
+
+#steps .steps-1 {
+    /* position: absolute; */
+    margin-bottom: 10px;
+    /* right: 20px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#steps .steps-2 {
+    /* position: absolute; */
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#steps .steps-3 {
+    position: absolute;
+    bottom: 10px;
+    right: 12px;
+}
